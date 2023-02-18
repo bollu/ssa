@@ -1,13 +1,13 @@
 import Lake
 open Lake DSL
 
-package «SSA»
+package «SSASlow»
 
-lean_lib SSA
+lean_lib SSASlow
 
 @[default_target]
 lean_exe «ssa» {
-  root := `SSA
+  root := `SSASlow
   supportInterpreter := true
 }
 
