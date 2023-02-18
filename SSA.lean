@@ -1,3 +1,9 @@
+import Mathlib.Data.Int.Basic
+
+inductive Test where
+  | aa : Int → Test
+  | bb : Nat →  Nat → Test
+
 open Std 
 
 namespace AST
